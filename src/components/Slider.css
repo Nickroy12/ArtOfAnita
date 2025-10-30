@@ -1,0 +1,93 @@
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* বড় স্ক্রীনের জন্য */
+  height: 400px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.slide.active {
+  left: 0;
+  opacity: 1;
+  z-index: 10;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-in-out;
+}
+
+.text.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text h2 {
+	font-size: 2.5rem;
+	color: #FFF;
+	/* -webkit-text-stroke: 2px #fff; */
+	margin: 0;
+	text-shadow: -5px 5px 14px #000;
+}
+
+.text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Mobile & Tablet Responsive */
+@media (max-width: 768px) {
+  .slider {
+    height: 300px;
+  }
+
+  .text {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .text h2 {
+    font-size: 1.8rem;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 220px;
+  }
+
+  .text h2 {
+    font-size: 1.4rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+  }
+}

@@ -54,10 +54,11 @@
 }
 
 .text p {
-  font-size: 1.2rem;
-  margin-top: 10px;
+	font-size: 1.2rem;
+	margin-top: 10px;
+	background: #ae15ff;
+	font-weight: 500;
 }
-
 /* Mobile & Tablet Responsive */
 @media (max-width: 768px) {
   .slider {
@@ -72,10 +73,12 @@
   .text h2 {
     font-size: 1.8rem;
   }
-
-  .text p {
-    font-size: 1rem;
-  }
+.text p {
+	font-size: 1rem;
+	margin-top: 10px;
+	background: #ae15ff;
+	font-weight: 500;
+}
 }
 
 @media (max-width: 480px) {
@@ -87,7 +90,10 @@
     font-size: 1.4rem;
   }
 
-  .text p {
-    font-size: 0.9rem;
-  }
+.text p {
+	font-size: 0.9rem;
+	margin-top: 10px;
+	background: #ae15ff;
+	font-weight: 500;
+}
 }

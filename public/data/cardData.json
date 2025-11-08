@@ -1,75 +1,123 @@
 [
   {
-    "id": 1,
+    "id": 101,
     "name": "Party Bag",
-    "price": 1050,
-    "image": "image/product/product1.jpg"
+    "price": 120,
+    "image": "../image/product/product1.jpg",
+    "category": "bag",
+    "rating": 4.7,
+    "stock": 25,
+    "description": "Experience high-quality sound and deep bass with our latest wireless headphones. Designed for comfort and long listening hours with noise-cancelling technology."
   },
   {
-    "id": 2,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 102,
+    "name": "Stylish Bag",
+    "price": 95,
+    "image": "/image/product/product2.jpg",
+    "category": "bag",
+    "rating": 4.5,
+    "stock": 40,
+    "description": "Track your fitness, sleep, and heart rate with our premium smartwatch. Stay connected with notifications, GPS tracking, and long battery life."
   },
   {
-    "id": 3,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 103,
+    "name": "White Bag",
+    "price": 650,
+    "image": "../image/product/product5.jpg",
+    "category": "bag",
+    "rating": 4.8,
+    "stock": 10,
+    "description": "Capture stunning photos and videos with this professional-grade DSLR camera featuring advanced autofocus and 24.2MP resolution."
   },
   {
-    "id": 4,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 104,
+    "name": "Black Hand Bag",
+    "price": 1250,
+    "image": "../image/product/product3.jpg",
+    "category": "bag",
+    "rating": 4.6,
+    "stock": 8,
+    "description": "Powerful gaming laptop with high-end GPU, fast refresh rate display, and advanced cooling system for smooth gaming performance."
   },
   {
-    "id": 5,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 105,
+    "name": "Red Leather Bag",
+    "price": 60,
+    "image": "../image/product/product4.jpg",
+    "category": "bag",
+    "rating": 4.2,
+    "stock": 30,
+    "description": "Stylish and efficient office lamp with adjustable brightness levels and modern design to illuminate your workspace perfectly."
   },
   {
-    "id": 6,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 106,
+    "name": "Brown Leather",
+    "price": 45,
+    "image": "../image/product/product6.jpg",
+    "category": "bag",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id": 7,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 107,
+    "name": "Cloth Bag",
+    "price": 45,
+    "image": "../image/product/product7.jpg",
+    "category": "bag",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id": 8,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 108,
+    "name": "Emitation Gold bras-lite ",
+    "price": 45,
+    "image": "../image/product/jp1.jpg",
+    "category": "Jewellery",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id": 9,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 109,
+    "name": "Asthetic Bengle ",
+    "price": 45,
+    "image": "../image/product/jp2.jpg",
+    "category": "Jewellery",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id": 10,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 110,
+    "name": "Steel Hair clip ",
+    "price": 45,
+    "image": "../image/product/jp3.jpg",
+    "category": "Jewellery",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id":11,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 110,
+    "name": "Gold Star Bres-lite",
+    "price": 45,
+    "image": "../image/product/jp4.jpg",
+    "category": "Jewellery",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   },
   {
-    "id": 12,
-    "name": "Tote ag",
-    "price": 1050,
-    "image": "https://scontent.fdac24-2.fna.fbcdn.net/v/t39.30808-6/560406735_754943554251238_6611310776581973628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=E7TeVk87DroQ7kNvwG7IwIG&_nc_oc=AdnaL3B8AZMnd6SSMmP2KfjClTYaTX5qrtkzBeQR3GlwW8GvqVN9XqX-PpyixeDiGrc&_nc_zt=23&_nc_ht=scontent.fdac24-2.fna&_nc_gid=tbfDyqM6j1OFoFXVOui60Q&oh=00_Afdz2F-M4V4JFpXxgcwFTacr2PLzFWYVUeKHVwdzwxRm9w&oe=69055B41"
+    "id": 111,
+    "name": "Ring",
+    "price": 45,
+    "image": "../image/product/jp5.jpg",
+    "category": "Jewellery",
+    "rating": 4.4,
+    "stock": 20,
+    "description": "Durable and lightweight tripod stand compatible with DSLR and mirrorless cameras, perfect for stable photography and video shooting."
   }
 
 ]

@@ -6,15 +6,15 @@ const slides = [
   {
     image: "image/anita.jpg",
     title: "Ladies Bag",
-    description: "Experience the best services with us",
+    description: "Trendy and latest Bag",
   },
   {
-    image: "https://www.aarong.com/_next/image?url=https%3A%2F%2Fmcprod.aarong.com%2Fmedia%2Fmageplaza%2Fbannerslider%2Fbanner%2Fimage%2Fd%2F-%2Fd-2-mb-post-puja-04-10-2025-sm.png&w=1920&q=75",
-    title: "Innovative Solutions",
+        image: "image/anita2.jpg",
+    title: "Jewelleries and Ornament  ",
     description: "We bring ideas to life creatively",
   },
   {
-    image: "https://www.aarong.com/_next/image?url=https%3A%2F%2Fmcprod.aarong.com%2Fmedia%2Fmageplaza%2Fbannerslider%2Fbanner%2Fimage%2Fd%2F-%2Fd-3-mb-post-puja-04-10-2025-sm.png&w=1920&q=75",
+  image: "image/anita3.jpg",
     title: "Join Us Today",
     description: "Let's create something amazing together",
   },

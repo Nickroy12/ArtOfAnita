@@ -21,7 +21,7 @@ export const NavBar = () => {
       >
         <Container>
           {/* Brand / Logo */}
-          <Navbar.Brand href="#" className="fw-bold text-primary fs-4">
+          <Navbar.Brand href="/" className="fw-bold text-primary fs-4">
             <img src={scrolled ? '../image/logo.png' : '../image/loco.png'}  alt="Logo" style={{ height: "60px" }} />
           </Navbar.Brand>
 
@@ -47,8 +47,8 @@ export const NavBar = () => {
                 <a href="#about" className="nav-link fw-bold text-white mx-2">
                   About
                 </a>
-                <a href="#Product" className="nav-link fw-bold text-white mx-2">
-                  Product
+                <a href="#latest" className="nav-link fw-bold text-white mx-2">
+               Latest
                 </a>
                 <a href="#contact" className="nav-link fw-bold text-white mx-2">
                   Contact

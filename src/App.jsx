@@ -7,6 +7,7 @@ import './App.css'
 import AppLayout from './components/layout/AppLayout'
 import { Home } from './components/Home'
 import { ProductDetails } from './components/Detaills'
+import { ProductList } from './components/CardList'
 
 
 
@@ -24,6 +25,10 @@ const App =() => {
           {
             path: "/product/:id",
             element: <ProductDetails/>
+          },
+          {
+            path:"/category/:categoryName",
+            element: <ProductList />
           }
 
         ]

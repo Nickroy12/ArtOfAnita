@@ -27,7 +27,7 @@ export const Footer = () => {
             <a href="#" className="text-light mx-2 fs-5"><FaInstagram /></a>
             <a href="#" className="text-light mx-2 fs-5"><FaTwitter /></a>
             <a href="#" className="text-light mx-2 fs-5"><FaYoutube /></a>
-            <h5>Call: 015685688</h5>
+            <p>Call: 015685688</p>
           </Col>
           
            <small className="text-white text-center">© {new Date().getFullYear()} All rights reserved</small>

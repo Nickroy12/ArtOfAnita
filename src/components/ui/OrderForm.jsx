@@ -1,39 +1,54 @@
 import React, { useState } from "react";
-import "./ProductForm.css"; // 👈 Import custom CSS
+import "./ProductForm.css";
 
 export const ProductForm = ({ selectedProduct }) => {
-  const [formData, setFormData] = useState({ name: "", phone: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    address: "",
+  });
+
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbxSD79SKRG_R7v59xunn6eO-O9IzAyn4OxOyxElfuzybIxt2olKPJx1Mhbd5pP4TmDj/exec";
+    "https://script.google.com/macros/s/AKfycbyFkMH78pGKDIK5_OPM9Xs3nFkkdXMjnukh42JMWbg9Y-OpXhJcIwsgWjeJavasWCe0/exec";
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const payload = { product: selectedProduct, ...formData };
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    fetch(scriptURL, {
+  const payload = new URLSearchParams({
+    product: selectedProduct,
+    name: formData.name,
+    phone: formData.phone,
+    address: formData.address,
+  });
+
+  try {
+    await fetch(scriptURL, {
       method: "POST",
-      mode: "no-cors",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-      .then(() => {
-        alert("✅ Submitted successfully!");
-        setFormData({ name: "", phone: "" });
-      })
-      .catch((err) => console.error("Error!", err.message));
-  };
+      headers:{"Content-Type": 'application/x-www-form-urlencoded'},
+      body: payload, // 👈 NO headers, NO json
+    });
+
+    alert("✅ Submitted successfully!");
+    setFormData({ name: "", phone: "", address: "" });
+
+  } catch (err) {
+    console.error(err);
+    alert("❌ Network error");
+  }
+};
 
   return (
     <div className="form-container">
       <h2>Order Form</h2>
+
       <form onSubmit={handleSubmit} className="product-form">
         <div className="form-group">
-          <label>Selected Product</label>
-          <input type="text" value={selectedProduct} disabled />
+          <label className="d-none">Selected Product</label>
+          <input type="text" value={selectedProduct} className="d-none" disabled />
         </div>
 
         <div className="form-group">
@@ -60,6 +75,19 @@ export const ProductForm = ({ selectedProduct }) => {
           />
         </div>
 
+        {/* ✅ Address textarea */}
+        <div className="form-group">
+          <label>Address</label>
+          <input
+            name="address"
+            value={formData.address}
+            onChange={handleChange}
+            placeholder="Enter Your Address"
+          
+            required
+          />
+        </div>
+
         <button type="submit" className="submit-btn">
           Submit
         </button>
@@ -67,3 +95,5 @@ export const ProductForm = ({ selectedProduct }) => {
     </div>
   );
 };
+
+

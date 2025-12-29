@@ -18,28 +18,52 @@ export function ProductDetails() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     fetch("/data/cardData.json")
       .then((res) => res.json())
       .then((data) => {
-        const found = data.find((item) => item.id === parseInt(id));
+        const found = data.find(
+          (item) => item.id === parseInt(id)
+        );
         setProduct(found);
 
         if (found) {
-          const related = data.filter(
-            (item) => item.category === found.category && item.id !== found.id
-          );
+          const related = data.filter((item) => {
+            // ✅ subCategory থাকলে subCategory অনুযায়ী
+            if (found.subCategory) {
+              return (
+                item.subCategory === found.subCategory &&
+                item.id !== found.id
+              );
+            }
+
+            // ✅ subCategory না থাকলে category অনুযায়ী
+            return (
+              item.category === found.category &&
+              item.id !== found.id
+            );
+          });
+
           setRelatedProducts(related);
         }
       })
-      .catch((err) => console.error("Error loading product:", err))
+      .catch((err) =>
+        console.error("Error loading product:", err)
+      )
       .finally(() => setLoading(false));
   }, [id]);
 
   if (loading) {
     return (
       <div className="text-center py-5">
-        <div className="spinner-border text-primary" role="status"></div>
-        <p className="mt-3">Loading product details...</p>
+        <div
+          className="spinner-border text-primary"
+          role="status"
+        ></div>
+        <p className="mt-3">
+          Loading product details...
+        </p>
       </div>
     );
   }
@@ -67,16 +91,29 @@ export function ProductDetails() {
         </div>
 
         <div className="col-md-6">
-          <h2 className="fw-bold mb-3">{product.name}</h2>
+          <h2 className="fw-bold mb-3">
+            {product.name}
+          </h2>
+
           <div className="d-flex justify-content-between">
-            <p className="text-muted mb-2">Price: ${product.price}</p>
+            <p className="text-muted mb-2">
+              Price: ৳{product.price}
+            </p>
             <p className="mb-4 bg-primary p-2 border border-white text-white rounded-circle">
               {product.rating}
             </p>
           </div>
+
           <p>{product.description}</p>
-          <ProductForm selectedProduct={product.name} />
-          <Link to="/" className="btn btn-outline-primary mt-3">
+
+          <ProductForm
+            selectedProduct={product.name}
+          />
+
+          <Link
+            to="/"
+            className="btn btn-outline-primary mt-3"
+          >
             ← Back to Products
           </Link>
         </div>
@@ -85,9 +122,16 @@ export function ProductDetails() {
       {/* 🌀 Related Products Slider */}
       {relatedProducts.length > 0 && (
         <div className="mt-5">
-          <h4 className="mb-4">Related Products</h4>
+          <h4 className="mb-4">
+            Related Products
+          </h4>
+
           <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
+            modules={[
+              Navigation,
+              Pagination,
+              Autoplay,
+            ]}
             spaceBetween={20}
             slidesPerView={3}
             navigation

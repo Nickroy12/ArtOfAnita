@@ -19,8 +19,8 @@ export const CategoryTabs = () => {
     { name: "Jewellery", icon: <FaGem /> },
     { name: "Dresses", icon: <FaTshirt /> },
     { name: "Shoes", icon: <FaShoePrints /> },
-    { name: "Kids Zone", icon: <FaChild /> },
-    { name: "Gift Items", icon: <FaGift /> },
+    { name: "kidsZone", icon: <FaChild /> },
+    { name: "GiftItems", icon: <FaGift /> },
   ];
 
   const handleCategoryClick = (category) => {

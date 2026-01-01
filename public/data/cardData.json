@@ -9,7 +9,7 @@
     "subCategory": "Party",
     "rating": 4.7,
     "stock": 25,
-    "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 202,
@@ -20,7 +20,7 @@
     "subCategory": "Party",
     "rating": 4.5,
     "stock": 40,
-    "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 203,
@@ -31,7 +31,7 @@
     "subCategory": "Purse",
     "rating": 4.8,
     "stock": 10,
-    "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 204,
@@ -75,7 +75,7 @@
     "subCategory": "Party",
     "rating": 4.4,
     "stock": 20,
-    "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 208,
@@ -108,7 +108,7 @@
     "subCategory": "tote",
     "rating": 4.3,
     "stock": 22,
-    "description": "This stylish tote bag is crafted from premium Artificial leather, offering a smooth texture and an elegant look. With a size of 14'' * 11'' inches, it provides ample space for daily essentials, making it perfect for office use, shopping, or casual outings."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 211,
@@ -119,7 +119,7 @@
     "subCategory": "tote",
     "rating": 4.6,
     "stock": 15,
-    "description": "This stylish tote bag is crafted from premium Artificial leather, offering a smooth texture and an elegant look. With a size of 14'' * 11'' inches, it provides ample space for daily essentials, making it perfect for office use, shopping, or casual outings."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 212,
@@ -130,7 +130,7 @@
     "subCategory": "tote",
     "rating": 4.4,
     "stock": 27,
-    "description": "This stylish tote bag is crafted from premium Soft China PU Leather, offering a smooth texture and an elegant look. With a size of 14'' * 11'' inches, it provides ample space for daily essentials, making it perfect for office use, shopping, or casual outings."
+    "description": "Designed with a modern look and durable materials, this bag is perfect for everyday use. It offers ample storage space to keep your essentials organized, whether it’s books, a laptop, documents, or personal items. Lightweight and comfortable to carry, it ensures ease even during long hours of use. Suitable for school, college, office, travel, or daily outings—this bag is a reliable choice for any lifestyle."
   },
   {
     "id": 213,
@@ -140,7 +140,7 @@
     "category": "bag",
     "subCategory": "ysl",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "Vintage design brown bag perfect for fashion lovers."
   },
   {
@@ -151,7 +151,7 @@
     "category": "bag",
     "subCategory": "sideBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "This is a small to medium-sized handbag that features a small handle on the top and a folding cover or flap. It also typically comes with a long strap for carrying over the shoulder. These bags often utilize checkered or other types of print designs"
   },
   {
@@ -162,7 +162,7 @@
     "category": "bag",
     "subCategory": "satchel",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A small, box-shaped bag that usually has two small handles. It may also feature printed or embroidered designs on its surface."
   },
   {
@@ -173,7 +173,7 @@
     "category": "bag",
     "subCategory": "satchel",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A small, box-shaped bag that usually has two small handles. It may also feature printed or embroidered designs on its surface."
   },
 
@@ -185,7 +185,7 @@
     "category": "bag",
     "subCategory": "sideBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "This is a small to medium-sized handbag that features a small handle on the top and a folding cover or flap. It also typically comes with a long strap for carrying over the shoulder. These bags often utilize checkered or other types of print designs"
   },
   {
@@ -196,7 +196,7 @@
     "category": "bag",
     "subCategory": "sideBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "This is a small to medium-sized handbag that features a small handle on the top and a folding cover or flap. It also typically comes with a long strap for carrying over the shoulder. These bags often utilize checkered or other types of print designs"
   },
   {
@@ -207,7 +207,7 @@
     "category": "bag",
     "subCategory": "sideBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "This is a small to medium-sized handbag that features a small handle on the top and a folding cover or flap. It also typically comes with a long strap for carrying over the shoulder. These bags often utilize checkered or other types of print designs"
   },
   {
@@ -218,7 +218,7 @@
     "category": "bag",
     "subCategory": "tote",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A medium to large-sized bag suitable for everyday use or for the office. It typically has two long handles and can be carried over the shoulder. These are also commonly referred to as a general handbag."
   },
   {
@@ -229,7 +229,7 @@
     "category": "bag",
     "subCategory": "babyBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
   {
@@ -240,7 +240,7 @@
     "category": "bag",
     "subCategory": "babyBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
   {
@@ -251,7 +251,7 @@
     "category": "bag",
     "subCategory": "satchel",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A small, box-shaped bag that usually has two small handles. It may also feature printed or embroidered designs on its surface."
   },
     {
@@ -262,7 +262,7 @@
     "category": "bag",
     "subCategory": "ysl",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "Vintage design brown bag perfect for fashion lovers."
   },
     {
@@ -273,7 +273,7 @@
     "category": "bag",
     "subCategory": "ysl",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "Vintage design brown bag perfect for fashion lovers."
   },
     {
@@ -284,7 +284,7 @@
     "category": "bag",
     "subCategory": "ysl",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "Vintage design brown bag perfect for fashion lovers."
   },
     {
@@ -295,7 +295,7 @@
     "category": "bag",
     "subCategory": "tote",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A medium to large-sized bag suitable for everyday use or for the office. It typically has two long handles and can be carried over the shoulder. These are also commonly referred to as a general handbag."
   },
 
@@ -307,7 +307,7 @@
     "category": "bag",
     "subCategory": "tote",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A medium to large-sized bag suitable for everyday use or for the office. It typically has two long handles and can be carried over the shoulder. These are also commonly referred to as a general handbag."
   },
     {
@@ -318,7 +318,7 @@
     "category": "bag",
     "subCategory": "tote",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A medium to large-sized bag suitable for everyday use or for the office. It typically has two long handles and can be carried over the shoulder. These are also commonly referred to as a general handbag."
   },
     {
@@ -329,7 +329,7 @@
     "category": "bag",
     "subCategory": "tote",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "A medium to large-sized bag suitable for everyday use or for the office. It typically has two long handles and can be carried over the shoulder. These are also commonly referred to as a general handbag."
   },
     {
@@ -340,7 +340,7 @@
     "category": "bag",
     "subCategory": "babyBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -351,7 +351,7 @@
     "category": "bag",
     "subCategory": "babyBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -362,7 +362,7 @@
     "category": "bag",
     "subCategory": "HandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -373,7 +373,7 @@
     "category": "bag",
     "subCategory": "HandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -384,7 +384,7 @@
     "category": "bag",
     "subCategory": "classicHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -395,7 +395,7 @@
     "category": "bag",
     "subCategory": "classicHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -406,7 +406,7 @@
     "category": "bag",
     "subCategory": "classicHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -417,7 +417,7 @@
     "category": "bag",
     "subCategory": "chineseHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -428,7 +428,7 @@
     "category": "bag",
     "subCategory": "chineseHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
     {
@@ -439,7 +439,7 @@
     "category": "bag",
     "subCategory": "chineseHandBag",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "These are small-sized bags that are carried by hand (handheld). They are often decorated with glitter, stones, pearls, or floral embellishments. They are suitable for special occasions, parties, or evening use."
   },
   {
@@ -450,7 +450,7 @@
     "category": "bag",
     "subCategory": "ysl",
     "rating": 4.8,
-    "stock": 9,
+    "stock": "Available",
     "description": "Vintage design brown bag perfect for fashion lovers."
   },
   {
@@ -691,36 +691,36 @@
  
    {
     "id": 401,
-    "name": "Premium Gift Box",
-    "price": 220,
+    "name": "Butterfly Glitter Compact Mirrors",
+    "price": 250,
     "image": "../image/product/gift1.jpg",
     "category": "GiftItems",
   
     "rating": 4.7,
     "stock": 30,
-    "description": "A premium gift box filled with high-quality decorative items."
+    "description": "  A touch of whimsy and sparkle to your daily routine with these Butterfly Glitter Compact Mirrors. Featuring enchanting, Iridescent butterfly designs encased in a sea of floating holographic glitter and star-shaped sequins, these mirrors are as functional as they are beautiful."
   },
   {
     "id": 402,
-    "name": "Rose Teddy Gift",
-    "price": 180,
+    "name": "Bohemian Feather Compact Mirrors",
+    "price": 250,
     "image": "../image/product/gift2.jpg",
     "category": "GiftItems",
-    "subCategory": "Earrings",
+ 
     "rating": 4.6,
     "stock": 22,
-    "description": "Cute rose teddy perfect for anniversary or birthday gifts."
+    "description": "The slim, portable design opens to reveal high-definition dual mirrors, perfect for precise makeup application or quick touch-ups throughout the day. Combining artistic elegance with practical durability, these compacts are designed to fit effortlessly into your clutch or handbag. Whether you are gifting a friend or treating yourself, these feather-themed mirrors add a stylish, bohemian flair to any accessory collection."
   },
   {
     "id": 403,
-    "name": "Mini Flower Bouquet",
-    "price": 120,
+    "name": "Embellished Compact Mirrors",
+    "price": 250,
     "image": "../image/product/gift3.jpg",
     "category": "GiftItems",
-    "subCategory": "Earrings",
+
     "rating": 4.3,
     "stock": 45,
-    "description": "A stylish small flower bouquet designed for quick gifting."
+    "description": "a touch of artistic flair to your accessory collection with these Embellished Compact Mirrors, available in both circular and rectangular designs."
   },
   {
     "id": 404,
@@ -731,40 +731,40 @@
     "subCategory": "Bungles",
     "rating": 4.5,
     "stock": 28,
-    "description": "Delicious assorted chocolate gift pack for celebrations."
+    "description": "These hinged bangles feature a polished gold-tone base that frames a series of alternating high-gloss panels. The design showcases a beautiful contrast between marbled cream and deep onyx-black sections, creating a timeless color palette that complements any outfit. Crafted for comfort and ease of wear, the secure hinge mechanism allows the bracelet to sit elegantly on the wrist.."
   },
   {
     "id": 405,
-    "name": "LED Crystal Gift",
-    "price": 310,
+    "name": "Roslynd Flower Jewelry Combo Set",
+    "price": 120,
     "image": "../image/product/gift5.jpg",
     "category": "GiftItems",
-    "subCategory": "Earrings",
+
     "rating": 4.8,
     "stock": 12,
-    "description": "Beautiful LED crystal gift with glowing 3D design."
+    "description": "Exude feminine charm with this Roslynd Floral Jewelry Set, a curated collection designed to bring a delicate touch of nature to your style. This elegant gold-tone set features a matching necklace and drop earring duo, each showcasing a dainty five-petal pink flower with a lustrous pearl center and a sparkling crystal stud."
   },
   {
     "id": 406,
     "name": "Golden butterfly Bracelet",
-    "price": 200,
+    "price": 250,
     "image": "../image/product/gift6.jpg",
     "category": "Jewellery",
     "subCategory": "Bracelet",
     "rating": 4.6,
     "stock": 18,
-    "description": "Romantic couple photo frame ideal for gifting partners."
+    "description": "Fashionable Bracelet For Girls"
   },
   {
     "id": 407,
     "name": "Golden Eye shaped Bracelet",
-    "price": 140,
+    "price": 250,
     "image": "../image/product/gift7.jpg",
     "category": "Jewellery",
     "subCategory": "Bracelet",
     "rating": 4.7,
     "stock": 35,
-    "description": "Aromatic scented candle pack perfect for relaxation gifts."
+    "description": "Fashionable Bracelet For Girls"
   },
   {
     "id": 408,
@@ -775,7 +775,7 @@
     "subCategory": "Bracelet",
     "rating": 4.8,
     "stock": 15,
-    "description": "Premium handcrafted gift box with elegant natural materials."
+    "description": "Fashionable Bracelet For Girls"
   },
   {
     "id": 409,
@@ -791,13 +791,13 @@
   {
     "id": 410,
     "name": "Golden Flower Bracelet",
-    "price": 170,
+    "price": 250,
     "image": "../image/product/gift10.jpg",
     "category": "Jewellery",
     "subCategory": "Bracelet",
     "rating": 4.5,
     "stock": 26,
-    "description": "Colorful birthday gift set ideal for friends and family."
+    "description": "Fashionable Bracelet For Girls"
   },
   {
     "id": 411,
@@ -819,33 +819,33 @@
     "subCategory":"Bracelet",
     "rating": 4.2,
     "stock": 50,
-    "description": "Mini message bottle with romantic love notes."
+    "description": "Fashionable Bracelet For Girls"
   },
   {
     "id": 413,
-    "name": "Heart Shape Gift Box",
+    "name": "Earth Tone Enamel Bangles",
     "price": 350,
     "image": "../image/product/gift13.jpg",
     "category": "Jewellery",
     "subCategory": "Bungles",
     "rating": 4.6,
     "stock": 22,
-    "description": "Cute heart-shaped gift box ideal for special occasions."
+    "description": "Discover the perfect blend of warmth and elegance with these Earth Tone Enamel Bangles. Each piece features a polished gold-tone base that serves as a radiant frame for a series of diagonal, marbled panels. The sophisticated color palette includes a harmonious mix of cream, terracotta orange, and deep chocolate brown, creating a rich, autumnal aesthetic"
   },
   {
     "id": 414,
-    "name": "Luxury Perfume Gift",
-    "price": 450,
+    "name": "Black Butterfly Enamel Jewelry Combo Set",
+    "price": 120,
     "image": "../image/product/gift14.jpg",
     "category": "GiftItems",
     "rating": 4.9,
     "stock": 8,
-    "description": "Elegant perfume gift set containing premium fragrances."
+    "description": "Elegant Butterfly Enamel Jewelry Combo Set containing premium  Fashion."
   },
   {
     "id": 415,
-    "name": "Creative Art Gift",
-    "price": 200,
+    "name": "  Premium small Mirror",
+    "price": 250,
     "image": "../image/product/gift15.jpg",
     "category": "GiftItems",
     "rating": 4.7,
@@ -865,7 +865,7 @@
   },
   {
     "id": 417,
-    "name": "Star Shaped Golden Bracelet ",
+    "name": "Red Bow-knot Enamel Jewelry Set ",
     "price": 250,
     "image": "../image/product/gift17.jpg",
     "category": "GiftItems",
@@ -875,7 +875,7 @@
   },
   {
     "id": 418,
-    "name": "Star Shaped Golden Bracelet ",
+    "name": "Black Butterfly Jewelry Combo Set",
     "price": 250,
     "image": "../image/product/gift18.jpg",
     "category": "GiftItems",
@@ -885,7 +885,7 @@
   },
   {
     "id": 419,
-    "name": "Star Shaped Golden Bracelet ",
+    "name": "Blue Flower Jewelry Combo Set ",
     "price": 250,
     "image": "../image/product/gift19.jpg",
     "category": "GiftItems",

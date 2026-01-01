@@ -8,6 +8,7 @@ import AppLayout from './components/layout/AppLayout'
 import { Home } from './components/Home'
 import { ProductDetails } from './components/Detaills'
 import { ProductList } from './components/CardList'
+import { SubCategory } from './components/subCategory'
 
 
 
@@ -22,14 +23,19 @@ const App =() => {
             path:"/",
             element:<Home/>
           },
+             {
+            path:"/subCategory/:cateName",
+            element: <SubCategory/>
+          },
+          {
+              path:"/category/:categoryName",
+            element: <ProductList />
+          },
           {
             path: "/product/:id",
             element: <ProductDetails/>
           },
-          {
-            path:"/category/:categoryName",
-            element: <ProductList />
-          }
+       
 
         ]
       }

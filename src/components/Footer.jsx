@@ -23,11 +23,11 @@ export const Footer = () => {
 
           {/* Social Icons */}
           <Col md={4} className="text-center text-md-end">
-            <a href="#" className="text-light mx-2 fs-5"><FaFacebookF /></a>
+            <a href="https://www.facebook.com/profile.php?id=100092068013778" className="text-light mx-2 fs-5"><FaFacebookF /></a>
             <a href="#" className="text-light mx-2 fs-5"><FaInstagram /></a>
             <a href="#" className="text-light mx-2 fs-5"><FaTwitter /></a>
             <a href="#" className="text-light mx-2 fs-5"><FaYoutube /></a>
-            <p>Call: 015685688</p>
+            <p>Call: 01817676514</p>
           </Col>
           
            <small className="text-white text-center">© {new Date().getFullYear()} All rights reserved</small>

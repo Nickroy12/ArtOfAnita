@@ -100,7 +100,7 @@ export function ProductDetails() {
               Price: ৳{product.price}
             </p>
             <p className="mb-4 bg-primary p-2 border border-white text-white rounded-circle">
-              {product.rating}
+              {product.stock}
             </p>
           </div>
 

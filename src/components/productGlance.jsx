@@ -12,7 +12,7 @@ import {
 
 export const CategoryTabs = () => {
   const navigate = useNavigate();
-  const { categoryName } = useParams();
+  const { cateName } = useParams();
 
   const categories = [
     { name: "Bag", icon: <FaShoppingBag /> },
@@ -24,7 +24,7 @@ export const CategoryTabs = () => {
   ];
 
   const handleCategoryClick = (category) => {
-    navigate(`/category/${category.toLowerCase()}`);
+    navigate(`/subCategory/${category.toLowerCase()}`);
   };
 
   return (
@@ -37,7 +37,7 @@ export const CategoryTabs = () => {
           <button
             onClick={() => handleCategoryClick(cat.name)}
             className={`btn shadow-sm ${
-              categoryName === cat.name.toLowerCase()
+              cateName === cat.name.toLowerCase()
                 ? "btn-dark"
                 : "btn-outline-dark"
             }`}

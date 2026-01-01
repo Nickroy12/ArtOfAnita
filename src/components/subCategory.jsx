@@ -1,18 +1,15 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { SubProduct } from "./ui/SubProduct";
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import { ProductCard } from "./ui/card";
-
-export const ProductList = () => {
+export const SubCategory = () => {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
 
+  const { cateName } = useParams();
 
-  const { categoryName, subCategoryName } = useParams();
-
-  // Fetch products
   useEffect(() => {
     fetch("/data/cardData.json")
       .then((res) => res.json())
@@ -26,19 +23,37 @@ export const ProductList = () => {
       });
   }, []);
 
+  const search = searchTerm.trim().toLowerCase();
 
+  // Step 1: category + search filter
   const filteredProducts = products.filter((product) => {
-    if (subCategoryName) {
-      
-      return (
-        product.category === categoryName &&
-        product.subCategory === subCategoryName
-      );
-    }
+    const matchCategory =
+      !cateName ||
+      product.category?.toLowerCase() === cateName.toLowerCase();
 
-    return product.category === categoryName;
+    const matchSearch = product.name
+      ?.toLowerCase()
+      .includes(search);
+
+    return matchCategory && matchSearch;
   });
-  // ---------- UI ----------
+
+  // Step 2: WITH subCategory → first product per subCategory
+  const withSubCategory = Array.from(
+    new Map(
+      filteredProducts
+        .filter((p) => p.subCategory)
+        .map((p) => [p.subCategory, p])
+    ).values()
+  );
+
+  // Step 3: WITHOUT subCategory → show all
+  const withoutSubCategory = filteredProducts.filter(
+    (p) => !p.subCategory
+  );
+
+  // Step 4: merge
+  const finalProducts = [...withSubCategory, ...withoutSubCategory];
 
   if (loading) {
     return (
@@ -52,7 +67,7 @@ export const ProductList = () => {
     <div className="p-5">
       <h2 className="my-5 text-center">Products</h2>
 
-      {/* Search Bar */}
+      {/* Search */}
       <div className="d-flex justify-content-center mb-4">
         <input
           type="text"
@@ -63,13 +78,15 @@ export const ProductList = () => {
         />
       </div>
 
-      {/* Product Cards */}
-      {filteredProducts.length > 0 ? (
+      {finalProducts.length > 0 ? (
         <div className="container">
           <div className="row">
-            {filteredProducts.map((product) => (
-              <div key={product.id} className="col-12 col-md-4 mb-4">
-                <ProductCard product={product} />
+            {finalProducts.map((product) => (
+              <div
+                key={product.id}
+                className="col-12 col-md-2 mb-4"
+              >
+                <SubProduct product={product} />
               </div>
             ))}
           </div>

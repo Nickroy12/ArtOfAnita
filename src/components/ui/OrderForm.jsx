@@ -92,6 +92,7 @@ const handleSubmit = async (e) => {
           Submit
         </button>
       </form>
+      <p>Note: For deliveries outside Dhaka, we require advance payment.</p>
     </div>
   );
 };
